@@ -1,0 +1,86 @@
+# file
+  Size:
+      Empty.              [single]   [property emptyfile]
+      Not empty.
+
+  Number of occurrences of from string in the file:
+      None.              [single]    [if !emptyfile] [property noOccurences]
+      One.               [single]    [if !emptyfile] [property backUp]
+      Many.                  [if !emptyfile] [property backUp]
+
+  Number of occurrences of from string in one line:
+      One.               [single]   [if !emptyfile && !noOccurences]
+      Many.                  [if !emptyfile && !noOccurences]
+  
+  Position of the from string in the file:
+
+      First line.       [single]    [if !emptyfile && !noOccurences]		
+      
+      Last line.	 [single]   [if !emptyfile && !noOccurences]	
+      
+      Any.                  [if !emptyfile && !noOccurences]
+
+#filequantity
+  number of file provided:
+      None.              [error]
+      One.               [single]
+      More than One.
+
+#presence of file:
+      exist.             [error]
+      does not exist.    [single]   
+
+#fromString
+  length of the from string:
+      Zero.             [single]    [property fromZerovalue]                                 
+      One.              [single]    
+      More then One.        [property fromlength1]
+     longer then file.  [error]
+  
+  content of the from string:
+      alphanumeric characters.  [if !fromZerovalue && fromlength1]                   
+      special characters.       [if !fromZerovalue && fromlength1]                
+      spaces.                   [if !fromZerovalue && fromlength1]                 
+
+#toString
+  length of the to string:
+      Zero.              [single]       [property toZerovalue]
+      One.               [single]     
+      More then One.           [property tolength1]
+      longer then file [error]                  
+
+  content of the to string:
+      alphanumeric characters. [if !toZerovalue && tolength1]                   
+      special characters.      [if !toZerovalue && tolength1]                  
+      spaces.                  [if !toZerovalue && tolength1] 
+
+#opt
+  number of command line arguments and options:
+      Zero.                   [single]  [property optZero]
+      one or more.               
+
+  command line argument for backup -b:
+      existance of -b.           [if !optZero && backUp]  [single]         
+      no existance of -b.        [if !optZero]
+
+  command line argument for replace first occurence of string from -f:
+      existance of -f.           [if !optZero]  [property optFirst]         
+      no existance of -f.        [if !optZero]
+  
+  command line argument for replace last occurence of string from  -l:
+      existance of -f.           [if !optZero && !optFirst]          
+      no existance of -f.        [if !optZero] 
+      
+  command line argument for replace in a case insensitive string from  -l:
+      existance of -f.           [if !optZero]           
+      no existance of -f.        [if !optZero] 
+   
+
+#Filename
+  
+  Presence of a file corresponding to the name:
+
+     Not present.	     [error]	
+      
+     Present.
+      

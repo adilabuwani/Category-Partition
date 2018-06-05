@@ -1,0 +1,1044 @@
+
+Test Case 1  		<single>
+   Size :  Empty
+
+
+Test Case 2  		<single>
+   Number of occurrences of from string in the file :  None
+
+
+Test Case 3  		<single>
+   Number of occurrences of from string in the file :  One
+
+
+Test Case 4  		<single>
+   Number of occurrences of from string in one line :  One
+
+
+Test Case 5  		<single>
+   Position of the from string in the file :  First line
+
+
+Test Case 6  		<single>
+   Position of the from string in the file :  Last line
+
+
+Test Case 7  		<error>
+   number of file provided :  None
+
+
+Test Case 8  		<single>
+   number of file provided :  One
+
+
+Test Case 9  		<error>
+   number of file provided :  exist
+
+
+Test Case 10 		<single>
+   number of file provided :  does not exist
+
+
+Test Case 11 		<single>
+   length of the from string :  Zero
+
+
+Test Case 12 		<single>
+   length of the from string :  One
+
+
+Test Case 13 		<error>
+   length of the from string :  longer then file
+
+
+Test Case 14 		<single>
+   length of the to string :  Zero
+
+
+Test Case 15 		<single>
+   length of the to string :  One
+
+
+Test Case 16 		<single>
+   number of command line arguments and options :  Zero
+
+
+Test Case 17 		<single>  (follows [if])
+   command line argument for backup -b :  existance of -b
+
+
+Test Case 18 		<error>
+   Presence of a file corresponding to the name :  Not present
+
+
+Test Case 19 		(Key = 2.3.2.3.3.3.1.3.1.2.2.1.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 20 		(Key = 2.3.2.3.3.3.1.3.1.2.2.1.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 21 		(Key = 2.3.2.3.3.3.1.3.1.2.2.2.1.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 22 		(Key = 2.3.2.3.3.3.1.3.1.2.2.2.1.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 23 		(Key = 2.3.2.3.3.3.1.3.1.2.2.2.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 24 		(Key = 2.3.2.3.3.3.1.3.1.2.2.2.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 25 		(Key = 2.3.2.3.3.3.1.3.2.2.2.1.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 26 		(Key = 2.3.2.3.3.3.1.3.2.2.2.1.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 27 		(Key = 2.3.2.3.3.3.1.3.2.2.2.2.1.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 28 		(Key = 2.3.2.3.3.3.1.3.2.2.2.2.1.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 29 		(Key = 2.3.2.3.3.3.1.3.2.2.2.2.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 30 		(Key = 2.3.2.3.3.3.1.3.2.2.2.2.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 31 		(Key = 2.3.2.3.3.3.1.3.3.2.2.1.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 32 		(Key = 2.3.2.3.3.3.1.3.3.2.2.1.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 33 		(Key = 2.3.2.3.3.3.1.3.3.2.2.2.1.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 34 		(Key = 2.3.2.3.3.3.1.3.3.2.2.2.1.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 35 		(Key = 2.3.2.3.3.3.1.3.3.2.2.2.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 36 		(Key = 2.3.2.3.3.3.1.3.3.2.2.2.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  alphanumeric characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 37 		(Key = 2.3.2.3.3.3.2.3.1.2.2.1.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 38 		(Key = 2.3.2.3.3.3.2.3.1.2.2.1.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 39 		(Key = 2.3.2.3.3.3.2.3.1.2.2.2.1.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 40 		(Key = 2.3.2.3.3.3.2.3.1.2.2.2.1.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 41 		(Key = 2.3.2.3.3.3.2.3.1.2.2.2.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 42 		(Key = 2.3.2.3.3.3.2.3.1.2.2.2.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 43 		(Key = 2.3.2.3.3.3.2.3.2.2.2.1.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 44 		(Key = 2.3.2.3.3.3.2.3.2.2.2.1.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 45 		(Key = 2.3.2.3.3.3.2.3.2.2.2.2.1.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 46 		(Key = 2.3.2.3.3.3.2.3.2.2.2.2.1.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 47 		(Key = 2.3.2.3.3.3.2.3.2.2.2.2.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 48 		(Key = 2.3.2.3.3.3.2.3.2.2.2.2.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 49 		(Key = 2.3.2.3.3.3.2.3.3.2.2.1.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 50 		(Key = 2.3.2.3.3.3.2.3.3.2.2.1.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 51 		(Key = 2.3.2.3.3.3.2.3.3.2.2.2.1.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 52 		(Key = 2.3.2.3.3.3.2.3.3.2.2.2.1.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 53 		(Key = 2.3.2.3.3.3.2.3.3.2.2.2.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 54 		(Key = 2.3.2.3.3.3.2.3.3.2.2.2.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  special characters
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 55 		(Key = 2.3.2.3.3.3.3.3.1.2.2.1.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 56 		(Key = 2.3.2.3.3.3.3.3.1.2.2.1.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 57 		(Key = 2.3.2.3.3.3.3.3.1.2.2.2.1.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 58 		(Key = 2.3.2.3.3.3.3.3.1.2.2.2.1.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 59 		(Key = 2.3.2.3.3.3.3.3.1.2.2.2.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 60 		(Key = 2.3.2.3.3.3.3.3.1.2.2.2.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  alphanumeric characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 61 		(Key = 2.3.2.3.3.3.3.3.2.2.2.1.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 62 		(Key = 2.3.2.3.3.3.3.3.2.2.2.1.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 63 		(Key = 2.3.2.3.3.3.3.3.2.2.2.2.1.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 64 		(Key = 2.3.2.3.3.3.3.3.2.2.2.2.1.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 65 		(Key = 2.3.2.3.3.3.3.3.2.2.2.2.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 66 		(Key = 2.3.2.3.3.3.3.3.2.2.2.2.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  special characters
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 67 		(Key = 2.3.2.3.3.3.3.3.3.2.2.1.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 68 		(Key = 2.3.2.3.3.3.3.3.3.2.2.1.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 69 		(Key = 2.3.2.3.3.3.3.3.3.2.2.2.1.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 70 		(Key = 2.3.2.3.3.3.3.3.3.2.2.2.1.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 71 		(Key = 2.3.2.3.3.3.3.3.3.2.2.2.2.1.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
+
+Test Case 72 		(Key = 2.3.2.3.3.3.3.3.3.2.2.2.2.2.2.)
+   Size                                                                    :  Not empty
+   Number of occurrences of from string in the file                        :  Many
+   Number of occurrences of from string in one line                        :  Many
+   Position of the from string in the file                                 :  Any
+   number of file provided                                                 :  More than One
+   length of the from string                                               :  More then One
+   content of the from string                                              :  spaces
+   length of the to string                                                 :  More then One
+   content of the to string                                                :  spaces
+   number of command line arguments and options                            :  one or more
+   command line argument for backup -b                                     :  no existance of -b
+   command line argument for replace first occurence of string from -f     :  no existance of -f
+   command line argument for replace last occurence of string from  -l     :  no existance of -f
+   command line argument for replace in a case insensitive string from  -l :  no existance of -f
+   Presence of a file corresponding to the name                            :  Present
+
